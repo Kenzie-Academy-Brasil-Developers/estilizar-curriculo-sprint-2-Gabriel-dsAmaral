@@ -10,6 +10,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 html, body {
 	font-size: 16px;
 	font-family: 'lato', sans-serif;
+	background-color: #f3f3f3;
 }
 
 .clear {
@@ -132,6 +133,7 @@ section:last-child {
 #hr_normal {
 	opacity: 10%;
 	border-color: #181818;
+	border-top: solid #181818 1px;
 }
 
 #hr_inicial {
@@ -142,4 +144,8 @@ section:last-child {
 #contactDetails {
 	color: #444444;
 	text-decoration: none;
+}
+
+.sectionBorder {
+	border-top:solid #dedede 1px;
 }
